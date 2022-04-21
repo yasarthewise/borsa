@@ -11,7 +11,7 @@ void main() {
 }
 
 _launchURL() async {
-  const url = 'https://www.instagram.com/borsa.haber/';
+  const url = 'https://github.com/yasarthewise/borsa';
   if (await canLaunch(url)) {
     await launch(url);
   } else {
